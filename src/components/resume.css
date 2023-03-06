@@ -1,0 +1,20 @@
+main {
+    padding: 15px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-bottom: 25px;
+  };
+  h2 {
+    font-size: 32px;
+    padding: 12px;
+  };
+  h3 {
+    padding: 8px;
+  };
+  ul {
+    list-style: square;
+    font-size: 18px;
+  };
+  a {
+    text-decoration: underline;
+  };

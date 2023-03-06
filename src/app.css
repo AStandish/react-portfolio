@@ -1,0 +1,22 @@
+main {
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-bottom: 25px;
+  }
+  h2 {
+    padding: 25px;
+    font-size: 32px;
+  }
+  img {
+    margin-left: 10%;
+    border-radius: 50%;
+    min-width: 120px;
+    max-width: 15vw;
+  }
+  p {
+    min-width: 300px;
+    max-width: 720px;
+    font-size: 18px;
+    padding: 25px;
+  }
+  
