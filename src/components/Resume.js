@@ -1,4 +1,5 @@
 import React from "react";
+import "./resume.module.css";
 
 const styles = {
   main: {

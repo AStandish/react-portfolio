@@ -2,9 +2,10 @@ import React, { useRef } from "react";
 import { useForm } from "react-hook-form";
 import { validateEmail } from "../utils/helpers";
 import emailjs from "@emailjs/browser";
-import "./aboutme.css";
+import "./contact.module.css";
 
 const styles = {
+  
   main: {
     justifyContent: "flex-start",
     paddingBottom: "25px",

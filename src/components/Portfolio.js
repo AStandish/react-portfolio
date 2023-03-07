@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./Card";
+import "./portfolio.module.css";
 import jateImage from "../assets/jate.png";
 import jschallenge1Image from "../assets/jschallenge1.png";
 import portfolioImage from "../assets/portfolio.png";

@@ -1,4 +1,5 @@
 import React from "react";
+import "./header.module.css";
 // import sandy from "../assets/images/sandy.png";
 
 const styles = {

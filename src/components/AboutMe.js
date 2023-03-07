@@ -1,6 +1,6 @@
 import React from "react";
 import amber2 from "../assets/amber2.jpg";
-import "./aboutme.css"
+import "./aboutme.module.css"
 
 const styles = {
   main: {

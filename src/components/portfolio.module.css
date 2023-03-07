@@ -1,0 +1,11 @@
+main {
+    display: "flex";
+    flex-wrap: "wrap";
+    flex-direction: "row";
+  }
+
+  h2 {
+    padding: "8px";
+    font-size: "32px";
+    background-color: "rgb(255,105,180)";
+  }

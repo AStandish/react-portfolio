@@ -1,7 +1,7 @@
 import React from "react";
 import githubicon from "../assets/github-mark.png";
 import linkedinicon from "../assets/LinkedIn-Blue-21@2x.png";
-import "./footer.css";
+import "./footer.module.css";
 
 const styles = {
   footer: {
