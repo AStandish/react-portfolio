@@ -87,7 +87,7 @@ export default function Portfolio() {
   return (
     <>
       <h2 style={styles.h2}>Projects</h2>
-      <main style={styles.main}>{cardComponents}</main>
+      <section style={styles.main}>{cardComponents}</section>
     </>
   );
 }

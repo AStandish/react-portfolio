@@ -5,7 +5,7 @@ import "./aboutme.module.css"
 
 export default function AboutMe() {
   return (
-    <main>
+    <section>
       <h2>About Me</h2>
 
       <img src={amber2} alt="amber2" />
@@ -21,6 +21,6 @@ export default function AboutMe() {
         and our pug. I love traveling, paddle boarding, gardening, hiking, and
         everything about the summer.
       </p>
-    </main>
+    </section>
   );
 }

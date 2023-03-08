@@ -82,7 +82,7 @@ function Contact() {
   };
 
   return (
-    <main style={styles.main}>
+    <section style={styles.main}>
       <h2 style={styles.h2}>Contact Me</h2>
       <form style={styles.form} ref={form} onSubmit={handleSubmit(onSubmit)}>
         <h3 style={styles.h3}>Name:</h3>
@@ -128,7 +128,7 @@ function Contact() {
           Submit
         </button>
       </form>
-    </main>
+    </section>
   );
 }
 export default Contact

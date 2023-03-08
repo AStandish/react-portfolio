@@ -25,7 +25,7 @@ const styles = {
 };
 export default function Resume() {
   return (
-    <main style={styles.main}>
+    <section style={styles.main}>
       <h2 style={styles.h2}>Resume</h2>
       <h3 style={styles.h3}>
         <a
@@ -66,6 +66,6 @@ export default function Resume() {
           <li>NoSQL</li>
         </ul>
       </div>
-    </main>
+    </section>
   );
 }
