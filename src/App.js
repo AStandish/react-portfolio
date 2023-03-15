@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./app.css";
 import  Header  from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";
