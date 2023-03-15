@@ -1,34 +1,13 @@
 import React from "react";
-import "./header.module.css";
-// import sandy from "../assets/images/sandy.png";
+import "./style.css";
 
-const styles = {
-  header: {
-    // backgroundImage: `url('${sandy}')`,
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "cover",
-    width: "100%",
-    display: "flex",
-    flexDirection: "column",
-  },
-  h1: {
-    fontSize: "48px",
-    padding: "3vw",
-  },
-  ul: {
-    display: "flex",
-    flexDirection: "row",
-    width: "95%",
-    padding: "1vw",
-    justifyContent: "space-around",
-    fontSize: "18px",
-  },
-};
+
+
 export default function Header({ currentPage, handlePageChange }) {
   return (
-    <header style={styles.header}>
-      <h1 style={styles.h1}>Amber Standish</h1>
-      <ul style={styles.ul} className="nav nav-tabs">
+    <header className="header">
+      <h1 className="h1header">Amber Standish</h1>
+      <ul className="ulheader nav nav-tabs">
         <li className="nav-item">
           <a
             href="#about-me"

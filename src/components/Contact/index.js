@@ -1,49 +1,9 @@
 import React, { useRef } from "react";
 import { useForm } from "react-hook-form";
-import { validateEmail } from "../utils/helpers";
+import { validateEmail } from "../../utils/helpers";
 import emailjs from "@emailjs/browser";
-import "./contact.module.css";
+import "./style.css";
 
-const styles = {
-  
-  main: {
-    justifyContent: "flex-start",
-    paddingBottom: "25px",
-  },
-  h2: {
-    fontSize: "32px",
-    padding: "8px",
-  },
-  form: {
-    border: "groove",
-    padding: "8px",
-    backgroundColor: "rgb(255,105,180)",
-    width: "90vw",
-    maxWidth: "800px",
-  },
-  h3: {
-    padding: "8px",
-    backgroundColor: "rgb(255,105,180)",
-  },
-  input: {
-    padding: "8px",
-    backgroundColor: "rgb(225, 225, 225)",
-    color: "rgb(10, 10, 10)",
-  },
-  textarea: {
-    padding: "8px",
-    backgroundColor: "rgb(225, 225, 225)",
-    color: "rgb(10, 10, 10)",
-    width: "85%",
-    height: "25vw",
-  },
-  button: {
-    padding: "8px",
-    backgroundColor: "rgb(225, 225, 225)",
-    color: "rgb(10, 10, 10)",
-    width: "100px",
-  },
-};
 
 function Contact() {
   const {
@@ -82,12 +42,12 @@ function Contact() {
   };
 
   return (
-    <section style={styles.main}>
-      <h2 style={styles.h2}>Contact Me</h2>
-      <form style={styles.form} ref={form} onSubmit={handleSubmit(onSubmit)}>
-        <h3 style={styles.h3}>Name:</h3>
+    <section className="sectioncontact">
+      <h2 className="h2contact">Contact Me</h2>
+      <form className="contactform" ref={form} onSubmit={handleSubmit(onSubmit)}>
+        <h3 className="h3contact">Name:</h3>
         <input
-          style={styles.input}
+          className="inputcontact"
           {...register("userName", {
             required: "Name is required",
             minLength: {
@@ -98,10 +58,10 @@ function Contact() {
           type="text"
           placeholder="Your name here"
         />
-        <p style={styles.h3}>{errors.userName?.message}</p>
-        <h3 style={styles.h3}>Email:</h3>
+        <p className="h3contact">{errors.userName?.message}</p>
+        <h3 className="h3contact">Email:</h3>
         <input
-          style={styles.input}
+          className="inputcontact"
           {...register("userEmail", {
             required: "email is required",
             validateEmail,
@@ -109,10 +69,10 @@ function Contact() {
           type="email"
           placeholder="Your email here"
         />
-        <p style={styles.h3}>{errors.userEmail?.message}</p>
-        <h3 style={styles.h3}>Message:</h3>
+        <p className="h3contact">{errors.userEmail?.message}</p>
+        <h3 className="h3contact">Message:</h3>
         <textarea
-          style={styles.textarea}
+          className="contacttextarea"
           {...register("userMessage", {
             required: "Please provide me with a message to reply to",
             minLength: {
@@ -122,13 +82,13 @@ function Contact() {
           })}
           placeholder="Your message here"
         />
-        <p style={styles.h3}>{errors.userMessage?.message}</p>
+        <p className="h3contact">{errors.userMessage?.message}</p>
         <br />
-        <button style={styles.button} type="submit">
+        <button className="contactbutton" type="submit">
           Submit
         </button>
       </form>
     </section>
   );
 }
-export default Contact
+export default Contact;

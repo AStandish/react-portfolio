@@ -1,0 +1,25 @@
+.sectionabout {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-bottom: 25px;
+}
+.h2about {
+  padding-top: 0px;
+  padding-bottom: 70px;
+  font-size: 32px;
+  font-family: cursive;
+}
+ 
+.aboutme {
+  margin-left: 10%;
+  border-radius: 50%;
+  min-width: 200px;
+  max-width: 200px;
+}
+.pabout {
+  min-width: 300px;
+  max-width: 720px;
+  font-size: 18px;
+  padding: 25px;
+  margin-right: 25%;
+} 

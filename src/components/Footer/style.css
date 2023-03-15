@@ -1,0 +1,23 @@
+.footer {
+  border-top: groove;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 12vw;
+  background-color: lightgray;
+  background-position: 0 0, 50px 50px;
+  background-size: 100px 100px;
+  min-height: 120px;
+  padding: auto;
+}
+.ulfooter {
+  padding: 2vw; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 75%;
+}
+.imgfooter {
+  width: 15vw;
+  max-width: 100px;
+} 

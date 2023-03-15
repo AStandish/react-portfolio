@@ -1,0 +1,37 @@
+.sectioncontact {
+  justify-content: flex-start;
+  padding-bottom: 25px;
+}
+.h2contact {
+  font-size: 32px;
+  padding: 8px;
+}
+.contactform {
+  border: groove;
+  padding: 8px;
+  background-color: rgb(255,105,180);
+  width: 90vw;
+  max-width: 800px;
+}
+.h3contact {
+  padding: 8px;
+  background-color: rgb(255,105,180);
+}
+.inputcontact {
+  padding: 8px;
+  background-color: rgb(225, 225, 225);
+  color: rgb(255,105,180);
+}
+.contacttextarea {
+  padding: 8px;
+  background-color: rgb(225, 225, 225);
+  color: rgb(255,105,180);
+  width: 85%;
+  height: 25vw;
+}
+.contactbutton {
+  padding: 8px;
+  background-color: rgb(225, 225, 225);
+  color: rgb(255,105,180);
+  width: 100px;
+}

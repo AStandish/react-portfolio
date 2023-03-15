@@ -1,0 +1,41 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: groove;
+  margin: 5px;
+  width: 270px;
+  padding: 10px;
+  height: 285px;
+  background-image: image;
+}
+
+/* .thumbnail {
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 10%; */
+
+/* } */
+
+img.project {
+  max-width: 300px;
+  max-height: 300px;
+  width: 300px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+.giticon {
+  width: 75px;
+  height: auto;
+  max-height: 75px;
+  max-width: 75px;
+  margin-left: auto;
+  margin-right: auto;
+}

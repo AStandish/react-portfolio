@@ -1,25 +1,12 @@
 import React from "react";
-import Card from "./Card";
-import "./portfolio.module.css";
-import jateImage from "../assets/jate.png";
-import jschallenge1Image from "../assets/jschallenge1.png";
-import portfolioImage from "../assets/portfolio.png";
-import readmegeneratorImage from "../assets/readmegenerator.png";
-import sandwichmakerImage from "../assets/sandwichmaker.png";
-import workdayschedulerImage from "../assets/workdayscheduler.png";
-
-const styles = {
-  main: {
-    display: "flex",
-    flexWrap: "wrap",
-    flexDirection: "row",
-  },
-  h2: {
-    padding: "8px",
-    fontSize: "32px",
-    backgroundColor: "rgb(255,105,180)",
-  },
-};
+import Card from "../Card";
+import "./style.css";
+import jateImage from "../../assets/jate.png";
+import jschallenge1Image from "../../assets/jschallenge1.png";
+import portfolioImage from "../../assets/portfolio.png";
+import readmegeneratorImage from "../../assets/readmegenerator.png";
+import sandwichmakerImage from "../../assets/sandwichmaker.png";
+import workdayschedulerImage from "../../assets/workdayscheduler.png";
 
 const projects = [
   {
@@ -30,8 +17,8 @@ const projects = [
     image: jateImage,
   },
   {
-    title: "random password generator",
-    description: "Password generator using basic javascript!",
+    title: "Random Password Generator",
+    description: "Password generator using basic javascript",
     gitURL: "https://github.com/AStandish/JSchallenge1",
     deployedURL: "https://astandish.github.io/JSchallenge1/",
     image: jschallenge1Image,
@@ -51,7 +38,7 @@ const projects = [
     image: portfolioImage,
   },
   {
-    title: "Sandwich maker",
+    title: "Sandwich Maker",
     description:
       "Group project: CMS style blog using MVC paradigm using Handlebars and Sequelize",
     gitURL: "https://github.com/ilavine/sandwich-maker",
@@ -85,9 +72,9 @@ const cardComponents = projects.map(
 
 export default function Portfolio() {
   return (
-    <>
-      <h2 style={styles.h2}>Projects</h2>
-      <section style={styles.main}>{cardComponents}</section>
-    </>
+    <div>
+      <h2 className="h2portfolio">Projects</h2>
+      <div className="row">{cardComponents}</div>
+    </div>
   );
 }

@@ -26,7 +26,7 @@ function App() {
     <>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

@@ -1,0 +1,22 @@
+.sectionresume {
+  display: flex; 
+  width: 100vw; 
+  justify-content:center
+}
+.h2resume {
+  font-size: 32px;
+  padding: 12px;
+}
+.h3resume {
+  padding: 8px;
+}
+.ulresume {
+  list-style: square;
+  font-size: 18px;
+  gap: 10px;
+}
+.aresume {
+  text-decoration: underline;
+}
+
+
