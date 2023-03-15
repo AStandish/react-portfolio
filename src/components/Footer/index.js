@@ -9,17 +9,17 @@ export default function Footer() {
   return (
     <footer className="footer">
       <ul className="ulfooter">
-        <li>
+        <li className="footerlist">
           <a href="https://github.com/AStandish">
             <img src={githubicon} alt="My GitHub" className="imgfooter" />
           </a>
         </li>
-        <li>
+        <li className="footerlist">
           <a href="https://www.linkedin.com/in/amber-standish-23527534/">
             <img src={linkedinicon} alt="My LinkedIn" className="imgfooter"/>
           </a>
         </li>
-        <li>
+        <li className="footerlist">
           <a href="https://dev.to/astandishperry">
             <img src={devicon} alt="My Dev" className="imgfooter" />
           </a>
