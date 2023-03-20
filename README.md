@@ -2,7 +2,7 @@
 
 ## Description
 
-In this project I learned about Reactjs to build my personal portfolio websit. The Github repo ishttps://github.com/AStandish/react-portfolio and live site is:  https://astandish.github.io/react-portfolio/ .
+In this project I learned about Reactjs to build my personal portfolio websit. The Github repo is https://github.com/AStandish/react-portfolio and live site is:  https://astandish.github.io/react-portfolio/ .
 
 ## Usage
 Heroku: https://nameless-gorge-32403.herokuapp.com/#about-me
