@@ -7,6 +7,7 @@ import portfolioImage from "../../assets/portfolio.png";
 import readmegeneratorImage from "../../assets/readmegenerator.png";
 import sandwichmakerImage from "../../assets/sandwichmaker.png";
 import workdayschedulerImage from "../../assets/workdayscheduler.png";
+import devmatchImage from "../../assets/devmatch.png";
 
 const projects = [
   {
@@ -52,6 +53,14 @@ const projects = [
     gitURL: "https://github.com/AStandish/WorkDayScheduler",
     deployedURL: "https://astandish.github.io/WorkDayScheduler/",
     image: workdayschedulerImage,
+  },
+  {
+    title: "devMatch",
+    description:
+      "Dating APP using React, Materialize, MongoDB, GraphQL",
+    gitURL: "https://github.com/AStandish/devMatch",
+    deployedURL: "https://astandish.github.io/devMatch/",
+    image: devmatchImage,
   },
 ];
 
